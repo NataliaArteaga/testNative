@@ -1,8 +1,8 @@
 import { combineReducers } from "redux"
-import dataProductsReducer from "./dataProductsReducer"
+import productsReducer from "./productosReducer"
 import listApiReducer from "./listApiReducer"
 
 export default combineReducers({
-    dataProducts: dataProductsReducer,
+    products: productsReducer,
     listApi:listApiReducer
 })

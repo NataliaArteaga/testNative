@@ -21,10 +21,6 @@ const  FooterHome =({navigation})=> {
               <Icon name="grid" />
               <Text>List</Text>
             </Button>
-            <Button vertical onPress={()=>{navigation.navigate('ListApiSelected')}}>
-              <Icon name="bookmarks" />
-              <Text>Favorite</Text>
-            </Button>
           </FooterTab>
         </Footer>
       </Container>
